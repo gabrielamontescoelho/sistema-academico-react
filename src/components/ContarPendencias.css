@@ -1,0 +1,51 @@
+.total-pendencia{
+    background: var(--cor-branca);
+    border: 1px solid var(--cor-alerta-borda);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 32px;
+}
+
+.cabecalho-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.icone-card{
+    width: 44px;
+    height: 44px;
+    background: var(--cor-alerta-clara);
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone-card svg{
+    color: var(--cor-alerta);
+    font-size: 24px;
+}
+
+.badge-alerta{
+    background: var(--cor-alerta-clara);
+    color: var(--cor-alerta);
+
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 999px;
+}
+
+.numero-pendencia{
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--cor-texto);
+    margin-bottom: 4px;
+}
+
+.total-pendencia p{
+    font-size: 14px;
+    color: var(--cor-texto-secundaria);
+}
