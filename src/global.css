@@ -154,8 +154,9 @@ table td{
 }
 
 .status-sim{
-  background: var(--cor-principal-clara);
-  color: var(--cor-principal);
+  
+  background: var(--cor-alerta-clara);
+  color: var(--cor-alerta);
 
   padding: 5px;
   border-radius: 20px;
@@ -165,8 +166,9 @@ table td{
 }
 
 .status-nao{
-  background: var(--cor-alerta-clara);
-  color: var(--cor-alerta);
+
+  background: var(--cor-principal-clara);
+  color: var(--cor-principal);
 
   padding: 5px;
   border-radius: 20px;
